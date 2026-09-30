@@ -7,3 +7,4 @@ scikit-learn
 scipy
 fastparquet
 rich
+ta
