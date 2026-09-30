@@ -5,6 +5,7 @@ yf.set_tz_cache_location(".yfinance_tz_cache")
 import streamlit as st
 import pandas as pd
 from datetime import datetime
+import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor
 import math
 import plotly.graph_objects as go
